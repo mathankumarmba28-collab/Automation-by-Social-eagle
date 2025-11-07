@@ -24,13 +24,13 @@ time.sleep(3)
 
 
 # Step 3: Type recipient
-pyautogui.write("vishnupriya.r@sharpsyssoft.com")
+pyautogui.write("vishnupa.r@xxx.com")
 pyautogui.press("tab") 
 time.sleep(2)
 pyautogui.press("tab")
-pyautogui.write("selva.r@sharpsyssoft.com")
+pyautogui.write("selva.r@xxx.com")
 pyautogui.press("tab")
-pyautogui.write("bharathkumar.r@sharpsyssoft.com")
+pyautogui.write("bharathkumar.r@xxx.com")
 
 pyautogui.press("tab")# Move to Subject
 time.sleep(1) 
@@ -54,7 +54,7 @@ email_body = [
     "",
     "Warm regards,",
     "Mathan Kumar R",
-    "Functional trainee"
+    "Solution architect"
 ]
 
 for line in email_body:
